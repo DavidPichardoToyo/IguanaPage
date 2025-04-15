@@ -8,48 +8,93 @@
     padding: 0;
 }
 
-html, body {
-    height: 100%;
-}
-
 body {
     font-family: Raleway;
-    color: white;
-    background-color: black;
+    font-optical-sizing: auto;
+    color: #ffffff;
+    font-weight: 100;
+    background-color: #000000;
 }
 
 header {
     text-align: center;
-    padding-bottom: 20px;
+    font-weight: 500;
+    padding: 30px;
+    font-size: 50px;
+    
 }
 
 header img {
     width: 100%;
+    height: auto;
 }
 
 .descripcion {
     display: flex;
-    padding: 50px;
-    text-align: left;
+    flex-direction: row;
+    color: #ffffff;
+    font-size: x-large;
+    justify-content: space-around;
+    padding: 10%;
+    margin: 0 auto;
+    font-weight: 300;
 }
 
 .descripcion img {
-    width: 600px;
-}
-
-.descripcion p {
-    padding-top: 120px;
+    width: 25em;
+    margin-left: 1em;
+    
 }
 
 .caracteristicas {
     text-align: center;
     background-color: #1e1a13;
-    font-size: 20px;
-    padding-top: 50px;
+    color: #ffffff;
+    font-size: xx-large;
+    padding: 50px;
 }
 
+.caracteristicas h2{
+    margin-right: 125px;
+    font-weight: 500;
+}
 .contenedor-iconos {
     display: flex;
     justify-content: center;
-    padding-top: 100px;    
+    justify-content: space-evenly;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    gap: 20px;
+    font-weight: 300;
+ }
+
+.imagenes {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 100px;
+}
+
+.iguanass img {
+    max-width: 100%;
+    margin: auto;
+    height: 100%;
+}
+
+.iguanass {
+    width: 27%;
+}
+
+.footer {
+    justify-content: center;
+    background-color: #1e1a13;
+    color: #ffffff;
+    text-align: center;
+    font-size: 20px;
+    padding: 50px;
+    font-weight: 300;
+}
+
+.footer a {
+    color: #ffffff;
 }
